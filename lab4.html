@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initialscale=1.0">
+	<title>LAB4</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+	<style type="text/css">
+		.left{
+			text-align: left;
+		}
+		.right{
+			text-align: right;
+		}
+		body{
+			margin: 25px;
+			padding:20px;
+			background-color: white;
+			color: #5F6F8D;
+			font-family:San-serif;
+
+				}
+		table,th,td{
+			border:1px solid darkblue;
+				}
+		caption{
+			text-align: center;
+		}
+		th:after{
+			content:<i class="fa fa-sort"></i>
+		}
+	
+		.next,.previous{
+			text-decoration:none;
+		}
+
+
+table{
+	background-color: white;
+	border-radius: 2px;
+	border-collapse: collapse;
+	width:100%;
+	text-align:center;
+	}
+	th,td{
+		padding:10px;
+	}
+	span.first{
+		margin:25px 25px 0px 25px;
+	}
+	#circle {
+  		border-radius: 75%;
+  		width: 3px;
+ 		height: .5px;
+  		padding: 10px;
+  		margin:1px;
+  		background: #6FB5F4;
+  		 		
+	}
+</style>
+</head>
+
+<body>
+
+	<div>
+		<span>
+		  <span>Show: 5</span>
+		
+		  <span class="fa fa-caret-down"></span>
+
+	    </span>
+
+		<span>Entries</span>
+		
+
+		<span style="font-size: 30px; margin-left:350px;text-align: center;">Customer <b>Details</b></span>
+		<div style="float: right;" >
+		<span><input placeholder="Search" ></span>
+		<span class="fa fa-search"></span>
+	</div>
+
+	
+
+		
+		</div>
+
+
+	<table>
+	
+	    <tr>
+
+		  <th>#</th>
+		  <th class="fa fa-sort">Name</th>
+		  <th>Address</th>
+		  <th class="fa fa-sort">City</th>
+		  <th>Pin Code</th>
+		  <th class="fa fa-sort">Country</th>
+		  <th>Actions</th>
+	    </tr>
+	<tr>
+		<td>1</td>
+		<td>Thomas Hardy</td>
+		<td>89 Chiarroscuro Rd.</td>
+		<td>Portland</td>
+		<td>97219</td>
+		<td>USA</td>
+		<td>
+			<i class="fa fa-eye" style ="color:#6FB5F4"></i>
+			<i class="fa fa-pencil"style ="color:#FFC207"></i>
+			<i class="fa fa-trash"style ="color:#E34724"></i>
+			
+		</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Maria Anders</td>
+		<td>Obere Str.57</td>
+		<td>Berlin</td>
+		<td>122029</td>
+		<td>Germany</td>
+		<td>
+			<i class="fa fa-eye" style ="color:#6FB5F4"></i>
+			<i class="fa fa-pencil"style ="color:#FFC207"></i>
+			<i class="fa fa-trash"style ="color:#E34724"></i>
+		</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Fran Wilson</td>
+		<td>C/Araqul,67</td>
+		<td>Madrid</td>
+		<td>28023</td>
+		<td>Spain</td>
+		<td>
+			<i class="fa fa-eye" style ="color:#6FB5F4"></i>
+			<i class="fa fa-pencil"style ="color:#FFC207"></i>
+			<i class="fa fa-trash"style ="color:#E34724"></i>
+		</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>Dominique Perrier</td>
+		<td>25, rue lauriston</td>
+		<td>Paris</td>
+		<td>75016</td>
+		<td>France</td>
+		<td>
+			<i class="fa fa-eye" style ="color:#6FB5F4"></i>
+			<i class="fa fa-pencil"style ="color:#FFC207"></i>
+			<i class="fa fa-trash"style ="color:#E34724"></i>
+		</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Martin Blank</td>
+		<td>via Monte Blanco 34</td>
+		<td>Turin</td>
+		<td>10100</td>
+		<td>Italy</td>
+		<td>
+			<i class="fa fa-eye" style ="color:#6FB5F4"></i>
+			<i class="fa fa-pencil"style ="color:#FFC207"></i>
+			<i class="fa fa-trash"style ="color:#E34724"></i>
+		</td>
+	</tr>
+</table>
+<div>
+	<br><br>
+<span float:right>Showing <b>5</b> out of <b>25</b> entries</span>
+<div style="float: right;word-spacing: 15px">
+<a href="#" class="previous">Previous</a>
+<span>1</span>
+<span>2</span>
+<span id="circle">3</span>
+<span>4</span>
+<span>5</span>
+<a href="#" class="next">Next</a>
+</div>
+
+
+</body>

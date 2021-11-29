@@ -1,0 +1,143 @@
+<!DOCTYPe html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<style type="text/css">
+	
+	.split {
+  		height: 100%;
+  		width: 50%;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		overflow-x: hidden;
+  		padding-top: 20px;
+	}
+
+	.left {
+  		left: 0;
+  		background-color: #111;
+  		color:grey;
+		}
+
+
+	.right {
+  		right: 0;
+  		background-color: #00A876;
+		}
+
+
+	.centered1 {
+  		text-align: left;
+  		top: 50%;
+  		left: 50%;
+  		width:500px;
+  		text-align: left;
+  		padding:10px 10px;
+  		margin:100px 10px;
+		}
+	.centered2{
+		text-align: left;
+		top:50%;
+		right:50%;
+		width:250px;
+		margin:200px 200px;
+	}
+
+/* Style the image inside the centered container, if needed */
+	.centered img {
+  		width: 150px;
+  		border-radius: 50%;
+  		padding:10px 10px;
+  	}
+  	.button1{
+  		background-color:#00A876;
+  		border:none;
+  		color:white;
+  		padding:10px 10px;
+  		text-align: center;
+  		text-decoration: none;
+  	}
+  	.button2
+  	{
+  		background-color: white;
+  		padding: 5px 5px;
+  		text-align: center;
+  		text-decoration:none;
+  		border:none;
+  		color:#00A876;
+  	}
+  	.footer{
+  		position: fixed;
+  	    left: 10px;
+  		bottom: 50px;
+  		width: 100%;
+  		color: grey;
+  		text-align: left;
+  		font-size: small;
+	}
+	.inp {
+    border:none;
+    border-bottom: 2px solid darkgrey;
+    background-color: #00A876;
+    padding: 5px 10px;
+    outline: none;
+     }
+ ::placeholder{
+ 	color:white;
+ 	opacity: 1.0;
+
+ }
+ span{
+ 	padding:25px 25px;
+ }
+img{
+	margin: 20px 20px;
+}
+  
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+	<div class="split left">
+		<img src="C:\Users\R MINI ANTONY\Desktop\hemin\css\logo.png" alt="apple_logo_icon" width="100px" height="40px">
+		<div class="centered1">
+		<h1 style="color:white;">Welcome</h1>
+	<h3>Register for an ERC account here</h3>
+	<p>Register for a free ERC account here and get access to the webshop, academy and MyERC membership portal. Tempor incident ut labore et dolore magna atiqua. Ut enim adminiministration.Active ERC Full Instructors automatically receive a €15 discount. If you are also a member of a partner National Resuscitation Council, they can provide you with a discount code for a further €10.You can renew or start a membership here.Should you have lost your password, please go here.We thank you in advance for your continued support. Please do not hesitate to contact us via our new support platform should you have any questions or comments here.</p>
+	<button class="button1">REGISTER HERE</button>
+	
+ 	<footer class="footer">
+ 		<span >Choose Language</span>
+ 		<span>HELP CENTER</span>
+ 		<span>ERC WEBSITE</span>
+ 		<span>ERC WEBSHOP</span>
+ 	</footer>
+ 	</div>
+ 	
+ 	</div>
+ 
+ 	<div class="split right">
+ 		<div class="centered2">
+ 		<h2 style="color: white"> Or login to your account</h2>
+ 		<input class="inp" name="email" placeholder="Your email"><br><br>
+ 		<input class="inp" type="password" name="password" placeholder="Password"><br><br>
+ 		<button class="button2">LOGIN</button>
+ 		<span style="color: white">Forgot password?</span>
+ 	</div>
+ </div>
+
+
+
+
+</body>
+</html>
